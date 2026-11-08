@@ -1,3 +1,20 @@
-/* TODO (optional): Define styles for dark mode */
 
-/* TODO (optional): Ensure text and background colors adjust for dark mode */
+
+.darkMode {
+  background: #24263a;
+  color: #f5f5ff;
+}
+
+.darkMode button {
+  background: #a18bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  padding: 11px 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.darkMode button:hover {
+  background: #8b72ee;
+}
